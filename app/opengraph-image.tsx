@@ -48,7 +48,7 @@ export default async function Image() {
           >
             {SITE_CONFIG.name}
           </h1>
-          <p
+          {/* <p
             style={{
               fontSize: "40px",
               margin: 0,
@@ -56,7 +56,7 @@ export default async function Image() {
             }}
           >
             {SITE_CONFIG.subtitle}
-          </p>
+          </p> */}
           <p
             style={{
               fontSize: "30px",
