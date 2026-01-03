@@ -46,7 +46,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1",
+    url: "https://youtube.com/shorts/3E8akMaedIc?si=uwXCYDCQN07jgBzL",
     icon: FaYoutube,
     ariaLabel: "Subscribe to my YouTube channel",
   },
