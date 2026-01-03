@@ -23,9 +23,26 @@ export default function AboutPreview() {
           <AccordionTrigger>About Me</AccordionTrigger>
           <AccordionContent>
             <p>
-              I'm Liam Lehr, a passionate software engineer and character
-              developer. I love creating innovative solutions and bringing
-              characters to life through storytelling.
+              I'm Liam Y Lehr, a passionate software engineer, combat athlete,
+              and friend. I love learning about a wide variety of topics,
+              creating innovative solutions and helping bring ideas of all kinds
+              to light. <br />
+              <br />
+              When I'm not coding, you can find me:
+            </p>
+            <ul className="list-disc list-inside">
+              <li>training BJJ, Wrestling or Muay Thai</li>
+              <li>
+                watching a movie or reading a book (please send your recs)
+              </li>
+              <li>playing guitar</li>
+              <li>traveling to new spots</li>
+              <li>exploring new tech</li>
+            </ul>
+            <br />
+            <p>
+              Feel free to reach out! I'm always excited to connect with
+              like-minded individuals!
             </p>
           </AccordionContent>
         </AccordionItem>
