@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   name: "Liam Y Lehr",
   author: "Liam Y Lehr",
   title: "Hello, I'm Liam.",
-  subtitle: "Software Engineer | Tech Enthusiast | Lifelong Learner",
+  subtitle: "Software Engineer | Ideator",
   url: "https://liamylehr.com",
 } as const;
 
