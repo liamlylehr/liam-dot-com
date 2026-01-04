@@ -117,7 +117,11 @@ export default function ProjectCard({
                 </a>
               </Badge>
             )}
-            {status && <span>Status: {status}</span>}
+            {status && (
+              <>
+                <br /> <p className="mt-2 text-sm">Status: {status}</p>
+              </>
+            )}
           </CardAction>
         </CardFooter>
       </Card>
