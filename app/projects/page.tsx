@@ -21,18 +21,19 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   return (
     <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-start py-12 px-4 sm:py-12 sm:px-16 sm:items-start">
-        <div className="mb-8">
+      <main className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-start py-4 px-4 sm:py-12 sm:px-16 sm:items-start">
+        <div className="mb-8 animate-fade-in">
           <h1 className="text-2xl font-bold mb-4">Projects</h1>
           <p className="text-sm text-gray-500">
-            Explore what I've been developing. I will be updating this section
+            Explore what I've been building. I will be updating this section
             with my latest work. I invite questions, suggestions and
             collaborations.
           </p>
         </div>
-        {PROJECTS.map((project) => (
+        {PROJECTS.map((project, index) => (
           <ProjectCard
             key={project.title}
+            index={index}
             title={project.title}
             description={project.description}
             image={project.image}

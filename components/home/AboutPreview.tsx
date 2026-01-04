@@ -24,19 +24,20 @@ export default function AboutPreview() {
           <AccordionContent>
             <p>
               I'm Liam Y Lehr, a passionate software engineer, combat athlete,
-              and friend. I love learning about a wide variety of topics,
-              creating innovative solutions and helping bring ideas of all kinds
-              to light. <br />
+              and life-long student. I love learning about a wide variety of
+              topics, creating innovative solutions and helping bring all kinds
+              of ideas to fruition. <br />
               <br />
               When I'm not coding, you can find me:
             </p>
             <ul className="list-disc list-inside">
               <li>training BJJ, Wrestling or Muay Thai</li>
               <li>
-                watching a movie or reading a book (please send your recs)
+                watching a movie, reading a book or listening to music/podcasts
+                (send your recs)
               </li>
-              <li>playing guitar</li>
-              <li>traveling to new spots</li>
+              <li>learning guitar or to cook a new dish</li>
+              <li>traveling to new places</li>
               <li>exploring new tech</li>
             </ul>
             <br />
@@ -55,19 +56,32 @@ export default function AboutPreview() {
         >
           <AccordionTrigger>My Skills</AccordionTrigger>
           <AccordionContent>
+            <p>Here are some of the technologies I've worked with:</p>
+            <br />
             <ul className="list-disc list-inside">
               <li>JavaScript / TypeScript</li>
-              <li>React / Next.js</li>
+              <li>React</li>
+              <li>Next.js</li>
               <li>Node.js</li>
+              <li>Tailwind CSS</li>
+              <li>Three.js</li>
+
               <li>Java</li>
               <li>Spring Boot</li>
+
               <li>Python</li>
               <li>FastAPI</li>
-              <li>YOLOv8</li>
-              <li>C</li>
-              <li>AWS</li>
+              <li>Hugging Face</li>
+              <li>YOLOv11</li>
+
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+
               <li>OpenShift</li>
               <li>Vercel</li>
+              <li>AWS</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
             </ul>
           </AccordionContent>
         </AccordionItem>
@@ -81,7 +95,7 @@ export default function AboutPreview() {
           <AccordionTrigger>Contact Me</AccordionTrigger>
           <AccordionContent>
             <p>
-              Feel free to reach out to me via email at{" "}
+              Feel free to reach out via email{" "}
               <a
                 href="mailto:liamlylehr@gmail.com"
                 className="text-blue-500 underline"
