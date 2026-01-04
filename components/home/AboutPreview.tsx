@@ -102,6 +102,7 @@ export default function AboutPreview() {
               >
                 liamlylehr at gmail dot com
               </a>{" "}
+              <br />
               or connect with me on{" "}
               <a
                 href="https://www.linkedin.com/in/liam-lehr/"
@@ -111,7 +112,7 @@ export default function AboutPreview() {
               >
                 LinkedIn
               </a>{" "}
-              or{" "}
+              and{" "}
               <a
                 href="https://x.com/liamylr"
                 target="_blank"
