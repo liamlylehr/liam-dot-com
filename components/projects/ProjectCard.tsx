@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FaGithub } from "react-icons/fa";
+import { GoProjectSymlink } from "react-icons/go";
 import { ANIMATION } from "@/lib/constants";
 
 interface Teammate {
@@ -92,8 +93,8 @@ export default function ProjectCard({
         </CardContent>
         <CardFooter>
           <CardAction>
-            <Badge className="mr-4 p-1.5 transition-all hover:scale-110 hover:shadow-lg">
-              {github_link && (
+            {github_link && (
+              <Badge className="mr-4 py-2 transition-all hover:scale-110 hover:shadow-lg">
                 <a
                   href={github_link}
                   target="_blank"
@@ -102,8 +103,20 @@ export default function ProjectCard({
                 >
                   <FaGithub /> View on GitHub
                 </a>
-              )}
-            </Badge>
+              </Badge>
+            )}
+            {link && (
+              <Badge className="mr-4 py-2 transition-all hover:scale-110 hover:shadow-lg">
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2"
+                >
+                  <GoProjectSymlink /> Visit Page
+                </a>
+              </Badge>
+            )}
             {status && <span>Status: {status}</span>}
           </CardAction>
         </CardFooter>
