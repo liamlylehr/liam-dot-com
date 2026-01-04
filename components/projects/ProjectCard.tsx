@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FaGithub } from "react-icons/fa";
+import { ANIMATION } from "@/lib/constants";
 
 interface Teammate {
   name: string;
@@ -23,6 +24,7 @@ interface ProjectCardProps {
   stack?: string[];
   status?: string;
   teammates?: Teammate[];
+  index?: number;
 }
 
 export default function ProjectCard({
@@ -34,10 +36,16 @@ export default function ProjectCard({
   stack,
   status,
   teammates,
+  index = 0,
 }: ProjectCardProps) {
   return (
     <>
-      <Card className="w-full m-3">
+      <Card
+        className="w-full mb-3 animate-fade-in-left"
+        style={{
+          animationDelay: `${index * ANIMATION.stagger.normal}ms`,
+        }}
+      >
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>

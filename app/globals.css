@@ -105,7 +105,7 @@ html.dark {
 }
 
 .animate-fade-in {
-  animation: fade-in 2s ease-out;
+  animation: fade-in 1.5s ease-out;
   animation-fill-mode: both;
 }
 

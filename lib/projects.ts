@@ -13,7 +13,7 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "3d World",
+    title: "3D World",
     description:
       "A 3D world using Three.js driven by the vision to offer a 3d portfolio to demonstrate my projects in a fun and unique way.",
     image: "",
