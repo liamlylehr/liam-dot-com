@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { SiMedium } from "react-icons/si";
+import { SiMedium, SiNotion } from "react-icons/si";
 import type { IconType } from "react-icons";
 
 /**
@@ -43,6 +43,12 @@ export const SOCIAL_LINKS = [
     url: "https://medium.com/@liamlylehr",
     icon: SiMedium,
     ariaLabel: "Read my articles on Medium",
+  },
+  {
+    name: "Notion",
+    url: "https://www.notion.so/Ed-2749cd4f185780508b3bf0eab07a88d6?source=copy_link",
+    icon: SiNotion,
+    ariaLabel: "Check out my Notion page",
   },
   {
     name: "YouTube",
