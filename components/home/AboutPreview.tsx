@@ -17,7 +17,7 @@ export default function AboutPreview() {
           value="about-me"
           className="animate-fade-in-left"
           style={{
-            animationDelay: "300ms",
+            animationDelay: "200ms",
           }}
         >
           <AccordionTrigger>About Me</AccordionTrigger>
@@ -50,7 +50,7 @@ export default function AboutPreview() {
           value="my-skills"
           className="animate-fade-in-left"
           style={{
-            animationDelay: "600ms",
+            animationDelay: "400ms",
           }}
         >
           <AccordionTrigger>My Skills</AccordionTrigger>
@@ -59,8 +59,15 @@ export default function AboutPreview() {
               <li>JavaScript / TypeScript</li>
               <li>React / Next.js</li>
               <li>Node.js</li>
-              <li>Character Development</li>
-              <li>Storytelling</li>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>YOLOv8</li>
+              <li>C</li>
+              <li>AWS</li>
+              <li>OpenShift</li>
+              <li>Vercel</li>
             </ul>
           </AccordionContent>
         </AccordionItem>
@@ -68,7 +75,7 @@ export default function AboutPreview() {
           value="contact-me"
           className="animate-fade-in-left"
           style={{
-            animationDelay: "900ms",
+            animationDelay: "600ms",
           }}
         >
           <AccordionTrigger>Contact Me</AccordionTrigger>
@@ -89,6 +96,15 @@ export default function AboutPreview() {
                 className="text-blue-500 underline"
               >
                 LinkedIn
+              </a>{" "}
+              or{" "}
+              <a
+                href="https://x.com/liamylr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
+                X (Twitter)
               </a>
               .
             </p>

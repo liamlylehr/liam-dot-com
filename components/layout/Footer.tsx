@@ -1,4 +1,5 @@
 import React from "react";
+import { SOCIAL_LINKS } from "../../lib/constants";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
         </p>
         <div className="flex gap-4 mt-2 md:mt-0">
           <a
-            href="https://github.com"
+            href={SOCIAL_LINKS[0].url}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900"
@@ -17,7 +18,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href={SOCIAL_LINKS[1].url}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900"
@@ -25,7 +26,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com"
+            href={SOCIAL_LINKS[2].url}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900"
