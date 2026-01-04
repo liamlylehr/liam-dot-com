@@ -32,7 +32,7 @@ export default function HeroSection() {
                   aria-label={link.ariaLabel}
                 >
                   <Icon
-                    className="animate-fade-in-left"
+                    className="animate-fade-in-left transition-all hover:scale-140"
                     style={{
                       animationDelay: `${index * ANIMATION.stagger.normal}ms`,
                     }}
