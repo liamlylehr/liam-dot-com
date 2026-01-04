@@ -26,7 +26,7 @@ export default function ProjectsPage() {
           <h1 className="text-2xl font-bold mb-4">Projects</h1>
           <p className="text-sm text-gray-500">
             Explore what I've been developing. I will be updating this section
-            with my latest work. Open to questions, suggestions and
+            with my latest work. I invite questions, suggestions and
             collaborations.
           </p>
         </div>
