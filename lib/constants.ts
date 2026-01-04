@@ -9,9 +9,9 @@ import type { IconType } from "react-icons";
  */
 export const SITE_CONFIG = {
   name: "Liam Y Lehr",
-  author: "Liam Lehr",
+  author: "Liam Y Lehr",
   title: "Hello, I'm Liam.",
-  subtitle: "Software Engineer | Character Developer",
+  subtitle: "Software Engineer | Tech Enthusiast | Lifelong Learner",
   url: "https://liamylehr.com",
 } as const;
 
