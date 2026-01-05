@@ -26,7 +26,7 @@ export default function AboutPreview() {
               I'm Liam Y Lehr, a passionate software engineer, combat athlete,
               and life-long student. I love learning about a wide variety of
               topics, creating innovative solutions and helping bring all kinds
-              of ideas to fruition. <br />
+              of ideas to light. <br />
               <br />
               When I'm not coding, you can find me:
             </p>
