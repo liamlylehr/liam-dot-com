@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import {
   Card,
   CardAction,
@@ -39,6 +41,11 @@ export default function ProjectCard({
   teammates,
   index = 0,
 }: ProjectCardProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const toggleExpand = () => setIsExpanded(!isExpanded);
+  const MAX_DESCRIPTION_LENGTH = 200;
+  const shouldTruncate = description.length > MAX_DESCRIPTION_LENGTH;
+
   return (
     <>
       <Card
@@ -49,7 +56,19 @@ export default function ProjectCard({
       >
         <CardHeader>
           <CardTitle>{title}</CardTitle>
-          <CardDescription>{description}</CardDescription>
+          <CardDescription>
+            {shouldTruncate && !isExpanded
+              ? `${description.slice(0, MAX_DESCRIPTION_LENGTH)}... `
+              : description}
+            {shouldTruncate && (
+              <button
+                onClick={toggleExpand}
+                className="text-blue-500 hover:underline ml-1"
+              >
+                {isExpanded ? "Show Less" : "Read More"}
+              </button>
+            )}
+          </CardDescription>
         </CardHeader>
         <CardContent className="text-sm">
           {teammates && teammates.length > 0 && (
