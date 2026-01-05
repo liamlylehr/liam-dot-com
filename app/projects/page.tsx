@@ -24,9 +24,10 @@ export default function ProjectsPage() {
       <main className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-start py-4 px-4 sm:py-12 sm:px-16 sm:items-start">
         <div className="mb-8 animate-fade-in">
           <h1 className="text-2xl font-bold mb-4">Projects</h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm">
             Explore what I've been building. I will be updating this section
-            with my latest work. I invite questions, suggestions and
+            with my latest work. Note that most projects will not be deployed
+            live at any given time. I invite questions, suggestions and
             collaborations.
           </p>
         </div>
