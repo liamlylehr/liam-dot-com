@@ -6,7 +6,7 @@ export default function StructuredData() {
     "@type": "Person",
     name: SITE_CONFIG.name,
     alternateName: SITE_CONFIG.author,
-    description: SITE_CONFIG.subtitle,
+    description: SITE_CONFIG.description,
     url: SITE_CONFIG.url,
     image: `${SITE_CONFIG.url}/liamylehr.png`,
     jobTitle: "Software Engineer",
@@ -27,7 +27,7 @@ export default function StructuredData() {
     "@type": "WebSite",
     name: SITE_CONFIG.name,
     url: SITE_CONFIG.url,
-    description: "A Freestyle Rhapsody.",
+    description: SITE_CONFIG.description,
     author: {
       "@type": "Person",
       name: SITE_CONFIG.author,

@@ -1,20 +1,20 @@
 import ProjectCard from "@/components/projects/ProjectCard";
 import type { Metadata } from "next";
 import { PROJECTS } from "@/lib/projects";
+import { SITE_CONFIG } from "@/lib/constants";
+
+const projectsDescription = "Software and smoothies.";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description:
-    "Explore my software engineering projects, character development work, and creative endeavors.",
+  description: projectsDescription,
   openGraph: {
-    title: "Projects | Liam Y Lehr",
-    description:
-      "Explore my software engineering projects, character development work, and creative endeavors.",
+    title: `Projects | ${SITE_CONFIG.name}`,
+    description: projectsDescription,
   },
   twitter: {
-    title: "Projects | Liam Y Lehr",
-    description:
-      "Explore my software engineering projects, character development work, and creative endeavors.",
+    title: `Projects | ${SITE_CONFIG.name}`,
+    description: projectsDescription,
   },
 };
 
