@@ -8,11 +8,13 @@ import type { IconType } from "react-icons";
  * Core metadata and information about the site
  */
 export const SITE_CONFIG = {
-  name: "Liam Y Lehr",
-  author: "Liam Y Lehr",
+  name: "Liam Yilma Lehr",
+  author: "Liam Yilma Lehr",
   title: "Hello, I'm Liam.",
-  subtitle: "Software Engineer | Ideator",
+  subtitle: "Learn | Live | Uplift",
+  description: "A Freestyle Rhapsody.",
   url: "https://liamylehr.com",
+  twitterHandle: "@liamylr",
 } as const;
 
 /**

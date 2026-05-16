@@ -65,7 +65,7 @@ export default async function Image() {
               color: "#888888",
             }}
           >
-            A Freestyle Rhapsody
+            {SITE_CONFIG.description}
           </p>
         </div>
       </div>

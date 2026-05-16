@@ -23,28 +23,26 @@ export default function AboutPreview() {
           <AccordionTrigger>About Me</AccordionTrigger>
           <AccordionContent>
             <p>
-              I'm Liam Y Lehr, a passionate software engineer, combat athlete,
-              and life-long student. I love learning about a wide variety of
-              topics, creating innovative solutions and helping bring all kinds
-              of ideas to light. <br />
+              I'm Liam Yilma Lehr, a passionate builder, combat athlete, and
+              life-long student. I love learning about a wide variety of topics,
+              food with conversation, and bringing ideas to light. <br />
               <br />
-              When I'm not coding, you can find me:
+              You'll find me:
             </p>
             <ul className="list-disc list-inside">
+              <li>on a run</li>
               <li>training BJJ, Wrestling or Muay Thai</li>
               <li>
                 watching a movie, reading a book or listening to music/podcasts
-                (send your recs)
+                (share your recs)
               </li>
-              <li>learning guitar or to cook a new dish</li>
+              <li>playing guitar</li>
+              <li>cooking new dishes</li>
               <li>traveling to new places</li>
               <li>exploring new tech</li>
             </ul>
             <br />
-            <p>
-              Feel free to reach out! I'm always excited to connect with
-              like-minded individuals!
-            </p>
+            <p>Feel free to reach out!</p>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem
@@ -56,7 +54,10 @@ export default function AboutPreview() {
         >
           <AccordionTrigger>My Skills</AccordionTrigger>
           <AccordionContent>
-            <p>Here are some of the technologies I've worked with:</p>
+            <p>
+              Here are some of the technologies I've worked with (in no
+              particular order):
+            </p>
             <br />
             <ul className="list-disc list-inside">
               <li>JavaScript / TypeScript</li>
@@ -97,10 +98,10 @@ export default function AboutPreview() {
             <p>
               Feel free to reach out via email{" "}
               <a
-                href="mailto:liamlylehr@gmail.com"
+                href="mailto:liamylehr@gmail.com"
                 className="text-blue-500 underline"
               >
-                liamlylehr at gmail dot com
+                liamylehr at gmail dot com
               </a>{" "}
               <br />
               or connect with me on{" "}

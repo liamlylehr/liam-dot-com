@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: SITE_CONFIG.name,
     template: `%s | ${SITE_CONFIG.name}`,
   },
-  description: "A Freestyle Rhapsody.",
+  description: SITE_CONFIG.description,
   keywords: [
     "Liam Lehr",
     "Software Engineer",
@@ -41,14 +41,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_CONFIG.url,
     title: SITE_CONFIG.name,
-    description: "A Freestyle Rhapsody.",
+    description: SITE_CONFIG.description,
     siteName: SITE_CONFIG.name,
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_CONFIG.name,
-    description: "A Freestyle Rhapsody.",
-    creator: "@liamylr",
+    description: SITE_CONFIG.description,
+    creator: SITE_CONFIG.twitterHandle,
   },
   robots: {
     index: true,
