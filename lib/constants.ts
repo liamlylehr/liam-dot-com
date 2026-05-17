@@ -11,8 +11,8 @@ export const SITE_CONFIG = {
   name: "Liam Yilma Lehr",
   author: "Liam Yilma Lehr",
   title: "Hello, I'm Liam.",
-  subtitle: "A Freestyle Rhapsody.",
-  description: "A Freestyle Rhapsody.",
+  subtitle: "A freestyle rhapsody",
+  description: "A freestyle rhapsody",
   url: "https://liamylehr.com",
   twitterHandle: "@liamylr",
 } as const;
